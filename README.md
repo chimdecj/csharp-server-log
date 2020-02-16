@@ -1,3 +1,3 @@
 # csharp-server-log
-# Author Chimdeecj
-# Lab 02
+Author Chimdeecj
+Lab 02
