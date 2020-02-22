@@ -20,8 +20,8 @@ namespace lab2 {
                 MySqlCommand selectDatabase = new MySqlCommand(selectquery, databaseConnection);
                 selectDatabase.CommandTimeout = 10;
                 insertDatabase.CommandTimeout = 10;
-                Console.WriteLine("Server connected");
                 try {
+                    Console.WriteLine("Server connected");
                     int counter = 0;  
                     string line;
                     System.IO.StreamReader file =   
