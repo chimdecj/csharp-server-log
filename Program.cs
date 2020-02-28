@@ -21,7 +21,7 @@ namespace lab2 {
                 selectDatabase.CommandTimeout = 10;
                 insertDatabase.CommandTimeout = 10;
                 try {
-                    Console.WriteLine("Server connected");
+                    Console.WriteLine("Server connected :D");
                     int counter = 0;  
                     string line;
                     System.IO.StreamReader file =   
